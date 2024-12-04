@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web To Do List</title>
+  <link rel="stylesheet" href="./styles/css/main-style.css">
+  <link rel="stylesheet" href="./styles/css/reset-styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__logo">
+        <a href="https://t.me/helloyaroslav" class="logo">yaroslav selivanov</a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="add__new__task">
+        <form action="" id="form__tasks">
+          <input class="task__input" type="text" placeholder="Add a new task">
+          <button class="add__task">
+            <img src="./styles/images/icons/plus.svg" alt="add new task">
+          </button>
+        </form>
+      </div>
+      <div class="active__task">
+        <div class="active__task__couantity">
+          <p>Tasks to do - 4</p>
+        </div>
+        <ul class="active__task__list">
+          <!-- <li class="active__task__item">
+            <span class="task__title">Просто тествое сообщение</span>
+            <div class="active__task__item__buttons">
+              <button class="successfully__button">
+                <img src="./styles/images/icons/success.svg" alt="success button">
+              </button>
+              <button class="deleted__button">
+                <img src="./styles/images/icons/trash.svg" alt="delete button">
+              </button>
+            </div>
+          </li>
+          <li class="active__task__item">
+            <span class="task__title">Просто тествое сообщение</span>
+            <div class="active__task__item__buttons">
+              <button class="successfully__button">
+                <img src="./styles/images/icons/success.svg" alt="success button">
+              </button>
+              <button class="deleted__button">
+                <img src="./styles/images/icons/trash.svg" alt="delete button">
+              </button>
+            </div>
+          </li>
+          <li class="active__task__item">
+            <span class="task__title">Просто тествое сообщение</span>
+            <div class="active__task__item__buttons">
+              <button class="successfully__button">
+                <img src="./styles/images/icons/success.svg" alt="success button">
+              </button>
+              <button class="deleted__button">
+                <img src="./styles/images/icons/trash.svg" alt="delete button">
+              </button>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+      <div class="finished__tasks">
+        <div class="finished__task__couantity">
+          <p>Done - 1</p>
+        </div>
+        <ul class="finished__task__list">
+          <li class="finished__task__item">
+            <span class="task__title--done">Просто тествое сообщение</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <script defer src="./script/main.js"></script>
+</body>
+</html>

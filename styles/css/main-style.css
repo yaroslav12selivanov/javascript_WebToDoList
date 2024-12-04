@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.container {
+  max-width: 432px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Inter";
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #0D0714;
+}
+
+img {
+  pointer-events: none;
+}
+
+a, p, h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+}
+
+.header {
+  margin-top: 15px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.add__new__task {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.add__new__task input {
+  width: 381px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 11px 15px;
+  border-radius: 10px;
+  border: 1px solid #3E1671;
+}
+
+.add__new__task button {
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #9E78CF;
+}
+
+.task__date {
+  color: gray;
+  font-size: 12px;
+}
+
+.task__title {
+  font-weight: 600;
+}
+
+.text {
+  cursor: default;
+  display: inline-grid;
+  gap: 10px;
+  /* display: block; */
+  margin-top: 10px;
+}
+
+.add__new__task button:hover {
+  transition: 0.3s ease-in-out;
+  background-color: #745999;
+}
+
+.active__task__couantity {
+  margin-top: 59px;
+}
+
+.active__task__list {
+  margin-top: 17px;
+}
+
+.active__task__item {
+  color: #9E78CF;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #15101C;
+  padding: 22px 20px;
+  border-radius: 10px;
+}
+
+.active__task__item__buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.successfully__button:hover {
+  transition: 0.3 ease-in-out;
+  opacity: 0.5;
+}
+
+.deleted__button:hover {
+  transition: 0.3 ease-in-out;
+  opacity: 0.5;
+}
+
+.finished__task__item__buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.finished__tasks {
+  margin-top: 60px;
+}
+
+.finished__task__couantity {
+  margin-top: 59px;
+}
+
+.finished__task__list {
+  margin-top: 17px;
+}
+
+.task__title--done {
+  color: #78CFB0;
+  text-decoration: line-through;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #15101C;
+  padding: 22px 20px;
+  border-radius: 10px;
+}
+
